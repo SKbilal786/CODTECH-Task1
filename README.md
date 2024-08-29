@@ -1,26 +1,38 @@
-Simple Calculator
+# 🧮 Simple Calculator
 
-Description
-This Java program is a simple calculator that performs basic arithmetic operations. It allows users to input two integers and select an arithmetic operation to perform. The supported operations are addition, subtraction, multiplication, division, and modulus. The calculator then displays the result of the selected operation.
+## Description
+The **Simple Calculator** is a straightforward Java program that performs basic arithmetic operations. It allows users to input two integers and select an arithmetic operation to execute. The calculator supports addition, subtraction, multiplication, division, and modulus operations, making it a handy tool for quick calculations.
 
-Features
-Addition: Computes the sum of two integers.
-Subtraction: Computes the difference between two integers.
-Multiplication: Computes the product of two integers.
-Division: Computes the quotient of two integers. Handles division by zero gracefully.
-Modulus: Computes the remainder of the division of two integers. Handles division by zero gracefully.
-Usage
-Run the Program: Execute the Calculator class.
+## 🌟 Features
+- **Addition:** Computes the sum of two integers.
+- **Subtraction:** Computes the difference between two integers.
+- **Multiplication:** Computes the product of two integers.
+- **Division:** Computes the quotient of two integers and gracefully handles division by zero.
+- **Modulus:** Computes the remainder of the division of two integers, with division by zero handled gracefully.
 
-Input Values:
+## 🚀 Usage
+1. **Run the Program:** Execute the `Calculator` class in your Java environment.
+2. **Input Values:**
+   - **First Integer:** Enter the first integer when prompted with `"Enter the value of num1:"`.
+   - **Second Integer:** Enter the second integer when prompted with `"Enter the value of num2:"`.
+   - **Operation Selection:** Choose an arithmetic operation by entering one of the following symbols when prompted with `"Enter the operation (+, -, *, /, %):"`:
+     - `+` for addition
+     - `-` for subtraction
+     - `*` for multiplication
+     - `/` for division
+     - `%` for modulus
+3. **View Results:** The program will display the result of the selected operation:
+   - **Addition:** Shows the sum of the two integers.
+   - **Subtraction:** Shows the difference between the two integers.
+   - **Multiplication:** Shows the product of the two integers.
+   - **Division:** Shows the quotient of the two integers. If dividing by zero, an error message will be displayed.
+   - **Modulus:** Shows the remainder of the division. If dividing by zero, an error message will be displayed.
 
-Enter the first integer when prompted with "Enter the value of num1: ".
-Enter the second integer when prompted with "Enter the value of num2: ".
-Enter the desired operation (+, -, *, /, %) when prompted with "Enter the operation (+, -, *, /, %): ".
-View Results: The program will display the result of the selected operation.
+## 🛠️ How It Works
+1. **User Input:** The program prompts the user to enter two integers and select an arithmetic operation.
+2. **Operation Execution:** Based on the selected operation, the program performs the calculation.
+3. **Error Handling:** If the user attempts to divide by zero, the program handles the error gracefully by displaying an appropriate message.
+4. **Output:** The result of the operation is displayed on the console.
 
-Addition: Shows the sum of the two integers.
-Subtraction: Shows the difference between the two integers.
-Multiplication: Shows the product of the two integers.
-Division: Shows the quotient of the two integers. If dividing by zero, an error message is displayed.
-Modulus: Shows the remainder of the division. If dividing by zero, an error message is displayed.
+## 👨‍💻 Technologies Used
+- **Java:** The primary programming language used to implement the calculator's functionality.
