@@ -49,3 +49,6 @@ The **Simple Calculator** is a straightforward Java program that performs basic 
 
 ## 👨‍💻 Technologies Used
 - **Java:** The primary programming language used to implement the calculator's functionality.
+
+- ![Screenshot 2024-08-30 143534](https://github.com/user-attachments/assets/3dff5fde-5e18-49ad-a168-0a4bbe16f465)
+
